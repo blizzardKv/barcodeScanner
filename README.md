@@ -8,6 +8,7 @@
 Инициализируем
 Подписываемся на событие обработки
 
+```
  if (window.BarcodeScanner) {
    const instanceBarcode = new window.BarcodeScanner();
    instanceBarcode.initialize();
@@ -16,3 +17,4 @@
      console.log(e.detail.barcode);
    });
  }
+```
